@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "anihilia:block/test_block"
+    }
+  }
+}
