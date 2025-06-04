@@ -12,7 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block TEST_BLOCK= registerBlock("test_block", new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, new Identifier(Anihilia.MOD_ID, name), block);
