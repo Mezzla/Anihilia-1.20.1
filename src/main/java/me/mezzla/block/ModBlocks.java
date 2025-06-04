@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, new Identifier(Anihilia.MOD_ID, name), block);

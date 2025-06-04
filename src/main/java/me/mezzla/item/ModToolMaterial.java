@@ -6,8 +6,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
     public enum ModToolMaterial implements ToolMaterial {
-        STICK(5, 650, 4.5f, 3.5f, 26,
-            () -> Ingredient.ofItems(ModItems.STICK));
+        AEUXULIUM(0, 0, 4.3f, 3.4f, 26,
+            () -> Ingredient.ofItems(ModItems.AEUXULIUM.asItem()));
 
         private final int miningLevel;
         private final int itemDurability;

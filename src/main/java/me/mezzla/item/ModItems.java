@@ -10,12 +10,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item STICK = registerItem("stick",new Item(new FabricItemSettings()));
-    public static final Item RUBY_SWORD = registerItem("ruby_sword",
-            new SwordItem(ModToolMaterial.STICK, 5, 3f, new FabricItemSettings()));
+
+    public static final Item AEUXULIUM = registerItem("aeuxulium", new Item(new FabricItemSettings()));
+
+    public static final Item AEUXULIUM_SWORD = registerItem("aeuxulium_sword", new SwordItem(ModToolMaterial.AEUXULIUM, 5, 3f, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(STICK);
+        entries.add(AEUXULIUM);
 
     }
     private static Item registerItem(String name, Item item) {

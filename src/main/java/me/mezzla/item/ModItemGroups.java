@@ -17,8 +17,8 @@ public class ModItemGroups{
     }
     public static final ItemGroup STICK_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Anihilia.MOD_ID,"stick"), FabricItemGroup.builder().displayName(Text.translatable("itemGroup.stick"))
-            .icon(() -> new ItemStack(ModItems.STICK)).entries((displayContext, entries) -> {
-                entries.add(ModItems.STICK);
+            .icon(() -> new ItemStack(ModItems.AEUXULIUM)).entries((displayContext, entries) -> {
+                entries.add(ModItems.AEUXULIUM);
             }).build());
     public static void registerItemGroups(){
 
